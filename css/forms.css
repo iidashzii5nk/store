@@ -1,0 +1,26 @@
+.principalRegistro {
+    border: 5px solid rgb(26, 255, 0);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.formRegistro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-right: 50px;
+    padding: 30px;
+    width: 450px;
+    border: 5px solid blue;
+}
+
+.formRegistro input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: gray;
+}

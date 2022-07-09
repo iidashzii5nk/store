@@ -1,0 +1,9 @@
+.tittlecar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: rgb(166, 170, 165);
+    border: 1px solid gray;
+}

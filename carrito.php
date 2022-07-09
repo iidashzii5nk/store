@@ -10,14 +10,14 @@ if (isset($_POST['btnAccion'])) {
             //al if() identifica con el valor Agregar entrando al case
             if (is_numeric($_POST['id'])) { //is_numeric() es para evaluar el numero enviado del id
                 $ID = $_POST['id'];
-                echo 'Id correcto..' . $ID;
+               // echo 'Id correcto..' . $ID; // Son mensajes para ver que se envia los datos
             } else {
                 echo 'Ups.. ID incorrecto' . $ID;
             }
 
             if (is_string($_POST['marca'])) { //is_numeric() es para evaluar el numero enviado del id
                 $MARCA = $_POST['marca'];
-                echo 'OK, marca' . $MARCA;
+               // echo 'OK, marca' . $MARCA;// Son mensajes para ver que se envia los datos
             } else {
                 echo 'Ups.. algo pasa con la marca' . $MARCA;
                 break;
@@ -25,7 +25,7 @@ if (isset($_POST['btnAccion'])) {
 
             if (is_string($_POST['nombre'])) { //is_numeric() es para evaluar el numero enviado del id
                 $NOMBRE = $_POST['nombre'];
-                echo 'OK, nombre' . $NOMBRE;
+               // echo 'OK, nombre' . $NOMBRE;// Son mensajes para ver que se envia los datos
             } else {
                 echo 'Ups.. algo pasa con el nombre' . $NOMBRE;
                 break;
@@ -33,7 +33,7 @@ if (isset($_POST['btnAccion'])) {
 
             if (is_string($_POST['precio'])) { //is_numeric() es para evaluar el numero enviado del id
                 $PRECIO = $_POST['precio'];
-                echo 'OK, precio' . $PRECIO;
+                //echo 'OK, precio' . $PRECIO;// Son mensajes para ver que se envia los datos
             } else {
                 echo 'Ups.. algo pasa con el precio' . $PRECIO;
                 break;
@@ -41,7 +41,7 @@ if (isset($_POST['btnAccion'])) {
 
             if (is_numeric($_POST['cantidad'])) { //is_numeric() es para evaluar el numero enviado del id
                 $CANTIDAD = $_POST['cantidad'];
-                echo 'OK, cantidad' . $CANTIDAD;
+                //echo 'OK, cantidad' . $CANTIDAD;// Son mensajes para ver que se envia los datos
             } else {
                 echo 'Ups.. algo pasa con la cantidad' . $CANTIDAD;
                 break;
@@ -49,7 +49,7 @@ if (isset($_POST['btnAccion'])) {
 
             if (is_string($_POST['imagen'])) { 
                 $IMAGEN = $_POST['imagen'];
-                echo 'OK, precio' . $IMAGEN;
+                //echo 'OK, precio' . $IMAGEN;// Son mensajes para ver que se envia los datos
             } else {
                 echo 'Ups.. algo pasa con el precio' . $IMAGEN;
                 break;
